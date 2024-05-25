@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(0,15,36);
+  background: linear-gradient(90deg, rgba(0,15,36,1) 0%, rgba(9,94,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Gang of Three';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gang of Three'), url('go3v2.woff') format('woff');
+  }
+  .header {
+    color: rgb(37, 77, 140);
+    font-family: 'Gang of Three';
+    background-image: linear-gradient(to right, #2834e0, #2b5275); /* Example gradient */
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-size: 50px;
+
+  }
+
+  #card {
+    font-family: 'Gang of Three';
+    color: rgb(0, 0, 0);
+    background: rgb(22,119,173);
+    background: linear-gradient(90deg, rgba(22,119,173,1) 0%, rgba(20,155,161,1) 35%, rgba(26,182,154,1) 100%);
+    cursor: pointer;
+
+  }
+
+  #searchBox {
+    border-radius: 11px;
+    font-family: 'Gang of Three';
+    cursor: pointer;
+  }
